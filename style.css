@@ -1,0 +1,154 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: #f7f8fa;
+}
+
+header{
+	position:sticky;
+	top: 0;
+	background: url('img/header.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*width: 100%;*/
+	
+}
+.slide{
+	margin: 30px auto;
+	width: 80vw;
+	
+}
+.slide img{
+	width: 100%;
+	height:600px;
+	border-radius: 10px;
+}
+#parrafo{
+
+	color: rgb(251 50 30);
+	font-family: 'Fasthand', cursive;
+	font-size: 4rem;
+	text-shadow: 5px 5px 5px #444;
+	transform: rotate(-10deg);
+}
+header img{
+	border-radius: 100%;
+}
+
+header p{
+	font-family: sans-serif;
+	font-size:1.5em;
+}
+nav a {
+	color: orange;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+nav a:hover{
+	padding-bottom: 15px;
+	color:yellow;
+	border-bottom: 5px solid #00c4b0;
+}
+.activado{
+	padding-bottom: 15px;
+	color:pink;
+	border-bottom: 5px solid #00c4b0;
+}
+#article1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	width: 60%;
+	padding: 50px;
+	box-shadow: 5px 5px 3px #ccc;
+
+}
+.section p{
+	font-size: 1.4rem;
+}
+#article2{
+	background: url(https://image.winudf.com/v2/image1/Y29tLnN1cGVyaGR3YWxscGFwZXIuUGFzdGVsV2FsbHBhcGVyc3dhbGxwYXBlci5pbWFnZXMucGhvdG9fc2NyZWVuXzE1XzE1ODUyMjczOTJfMDkz/screen-15.jpg?fakeurl=1&type=.webp);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	margin-top: 20px;
+	font-size: 1.5rem
+}
+#article2 h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	color: #ffe;
+}
+.block1{
+	margin-top:30px;
+	display: flex;
+	justify-content: center;
+	gap:10px;
+}
+.block2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	gap: 0;
+}
+.logoytext {
+	background:linear-gradient(#cfc, #adf);
+}
+.logoytext img{
+	width: 200px;
+	border-radius: 100%;
+
+}
+.text{
+	
+	margin: 1px auto;
+	width: 50%;
+}
+#image{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 80px;
+	height: 80px;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #000;
+	color:#faa;
+	padding-bottom:30px;
+}
+footer h3{
+	color: rgb(251 50 30);
+	font-family: 'Fasthand', cursive;
+	font-size: 3em;
+}
+footer img{
+	margin-top: 30px;
+	border-radius: 50%;
+}
+.redes{
+	
+	width: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+.redes svg{
+	fill: #1f9;
+	border-radius: 50%;
+	/*box-shadow: 5px 5px 3px #faa;*/
+}.redes a{
+	text-decoration: none;
+}
+
